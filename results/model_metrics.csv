@@ -1,0 +1,10 @@
+Metric,Value
+Accuracy,0.6966914443958606
+Attack Precision,0.7532842356687898
+Attack Recall,0.6678725844877791
+Attack F1-Score,0.7080117861652869
+Attack Detection Rate,0.6678725844877791
+True Negatives,27084.0
+False Positives,9916.0
+False Negatives,15056.0
+True Positives,30276.0
