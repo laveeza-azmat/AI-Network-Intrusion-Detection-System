@@ -166,20 +166,24 @@ The confusion matrix is therefore analyzed to understand the security effectiven
 ## 11. Project Structure
 
 ```text
-IS-A1
+AI-Network-Intrusion-Detection-System/
 │
 ├── dataset/
 │   ├── UNSW_NB15_training-set.csv
 │   ├── UNSW_NB15_testing-set.csv
-│   └── UNSW-NB15_features.csv
+│   └── NUSW-NB15_features.csv
 │
 ├── results/
-│   ├── class_distribution.png
 │   ├── attack_categories.png
+│   ├── class_distribution.png
 │   ├── confusion_matrix.png
-│   ├── model_metrics.csv
-│   └── ids_random_forest_model.pkl
+│   ├── feature_importance.png
+│   ├── ids_random_forest_model.pkl
+│   └── model_metrics.csv
 │
-├── python.ipynb
+├── app.py
+├── IDS_ML_Solution.ipynb
 ├── README.md
-└── requirements.txt
+├── requirements.txt
+├── .gitignore
+└── .gitattributes
